@@ -1,0 +1,15 @@
+body {
+    background-color: grey;
+    background-image: url("img/306801.jpg");
+}
+a:hover {
+    background-color: #111111;
+}
+
+/*.navbar {*/
+/*    display: none;*/
+/*}*/
+
+/*.jumbotron {*/
+/*    display: none;*/
+/*}*/
