@@ -1,15 +1,19 @@
 body {
     background-color: grey;
-    background-image: url("img/306801.jpg");
+    font-family: 'Acme', sans-serif;
 }
 a:hover {
     background-color: #111111;
 }
 
-/*.navbar {*/
-/*    display: none;*/
-/*}*/
-
-/*.jumbotron {*/
-/*    display: none;*/
-/*}*/
+.camo {
+    background-image: url("img/306801.jpg");
+}
+span{
+    font-size: 30px;
+}
+.card {
+   align-content: center;
+    align-items: center;
+    text-align: center;
+}
