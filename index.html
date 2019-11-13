@@ -16,10 +16,9 @@
     Thomas Offer
   </span>
     <span style="font-size: 48px;">
-        <i class="fab text-success fa-linkedin"></i>&emsp;
-        <i class="fab text-success fa-instagram"></i>&emsp;
-        <i class="fas text-success fa-envelope-open-text"></i>&emsp;
-
+        <a href="https://www.linkedin.com/in/thomas-offer"  target="_blank"><i class="fab nav-item text-success fa-linkedin" ></i></a>&emsp;
+        <a href="https://www.instagram.com/mroffer" target="_blank"><i class="fab nav-item text-success fa-instagram"></i></a>&emsp;
+        <a href="" target="_blank"><i class="fas nav-item text-success fa-envelope-open-text"></i></a>&emsp;
     </span>
 
 </nav>
@@ -33,17 +32,20 @@
     <div class="card first border border-success bg-dark" style="display: none">
         <br>
         <h4>Work Experience</h4>
-        <img src="img/work.png" class="card-img-top" alt="">
+        <br>
+        <a href="img/resume.pdf" download="Resume">
+        <img src="img/work.png" class="card-img-top first-img" alt="work">
+        </a>
         <div class="card-body ">
             <h5 class="card-title">Sales/Marketing</h5>
-            <p class="card-text"></p>
+            <p class="card-text"> Mercedes-Benz of Boerne, &emsp;North Park Volkswagen, &emsp;Infiniti of Boerne</p>
         </div>
     </div>
     <div class="card border border-success middle bg-dark" style="display: none">
         <br>
         <h4>Education</h4>
         <br>
-        <img src="img/codeup.png" class="card-img-top" alt="">
+        <img src="img/codeup.png" class="card-img-top mid-img" alt="">
         <div class="card-body">
             <h5 class="card-title">Codeup</h5>
             <p class="card-text">HTML, &emsp; CSS, &emsp; JavaScript</p>
@@ -53,7 +55,7 @@
         <br>
         <h4>Volunteer Work</h4>
         <br>
-        <img src="img/ti2ts.png" class="card-img-top" alt="taking it to the streets logo">
+        <img src="img/ti2ts.png" class="card-img-top last-img" alt="taking it to the streets logo">
         <div class="card-body">
             <h5 class="card-title">Taking It To the Streets</h5>
             <p class="card-text">Original Founders, &emsp; Former Vice President</p>
@@ -70,9 +72,21 @@
         $("body").removeClass("camo");
 
     });
-    $(".card-img-top").css("width","100px");
-
-
+    $("img").css("width","100px");
+    $('img').hover(
+        function() {
+            $(this).css('border', 'limegreen solid 2px');
+        },
+        function() {
+            $(this).css('border', '');
+        }
+    );
+    $('.last-img').click(function () {
+        window.open('https://www.takingittothestreets.com/', '_blank');
+    });
+    $('.mid-img').click(function () {
+        window.open('https://codeup.com/')
+    });
 </script>
 </body>
 </html>

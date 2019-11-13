@@ -17,3 +17,11 @@ span{
     align-items: center;
     text-align: center;
 }
+ a:hover {
+     background-color: inherit; !important;
+     border: limegreen solid 2px;
+ }
+  a {
+      padding: 0;
+  }
+
