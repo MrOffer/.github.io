@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="personal-site.css">
 </head>
 <body class="camo">
-<nav class="navbar bg-dark border border-success navbar-light bg-light mb-3" style="display: none">
+<nav class="navbar bg-dark border  rounded-pill mt-5 border-success navbar-light bg-light mb-3" style="display: none">
   <span class="navbar-text text-success">
     Thomas Offer
   </span>
@@ -22,13 +22,8 @@
     </span>
 
 </nav>
-<div class="jumbotron my-4 bg-dark border border-success jumbotron-fluid" style="display: none">
-    <div class="container">
-        <h1 class="display-4 text-success"></h1>
-        <p class="lead text-success"></p>
-    </div>
-</div>
-<div class="card-deck mx-3 text-success">
+
+<div class="card-deck mx-4 my-5 text-success">
     <div class="card first border rounded-lg border-success bg-dark" style="display: none">
         <br>
         <h4>Work Experience</h4>
@@ -62,6 +57,12 @@
         </div>
     </div>
 </div>
+<div class="jumbotron my-4 bg-dark border sticky-bottom rounded-pill border-success jumbotron-fluid" style="display: none">
+    <div class="container">
+        <h1 class="display-4 text-success"></h1>
+        <p class="lead text-success"></p>
+    </div>
+</div>
 <script src="jquery-2.2.4.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -69,7 +70,7 @@
 <script>
 
     $(".jumbotron, .card,.navbar").fadeIn(3000).promise().done(function () {
-        $("body").removeClass("camo");
+        // $("body").removeClass("camo");
 
     });
     $("img").css("width","100px");
