@@ -18,7 +18,7 @@
     <span style="font-size: 48px;">
         <a href="https://www.linkedin.com/in/thomas-offer"  target="_blank"><i class="fab nav-item text-success fa-linkedin" ></i></a>&emsp;
         <a href="https://www.instagram.com/mroffer" target="_blank"><i class="fab nav-item text-success fa-instagram"></i></a>&emsp;
-        <a href="" target="_blank"><i class="fas nav-item text-success fa-envelope-open-text"></i></a>&emsp;
+        <a href="http://gmail.com/thomas.e.offer" target="_blank"><i class="fas nav-item text-success fa-envelope-open-text"></i></a>&emsp;
     </span>
 
 </nav>
@@ -43,7 +43,7 @@
         <img src="img/codeup.png" class="card-img-top mid-img" alt="">
         <div class="card-body">
             <h5 class="card-title">Codeup</h5>
-            <p class="card-text">HTML, &emsp; CSS, &emsp; JavaScript</p>
+            <p class="card-text">HTML, &emsp; CSS, &emsp; JavaScript, &emsp; Java</p>
         </div>
     </div>
     <div class="card border rounded-lg border-success last bg-dark" style="display: none">
@@ -70,24 +70,18 @@
 <script>
 
     $(".jumbotron, .card,.navbar").fadeIn(3000).promise().done(function () {
-        // $("body").removeClass("camo");
+        $("body").removeClass("camo");
 
     });
     $("img").css("width","100px");
-    $('img').hover(
-        function() {
-            $(this).css('border', 'limegreen solid 2px');
-        },
-        function() {
-            $(this).css('border', '');
-        }
-    );
+
     $('.last-img').click(function () {
         window.open('https://www.takingittothestreets.com/', '_blank');
     });
     $('.mid-img').click(function () {
-        window.open('https://codeup.com/')
+        window.open('https://codeup.com/', '_blank');
     });
+
 </script>
 </body>
 </html>

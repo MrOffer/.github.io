@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: black;
     font-family: 'Acme', sans-serif;
 }
 a:hover {
@@ -17,11 +17,18 @@ span{
     align-items: center;
     text-align: center;
 }
- a:hover {
+ .fab:hover, .fas:hover {
      background-color: inherit; !important;
-     border: limegreen solid 2px;
+     border: limegreen solid 3px;
  }
   a {
       padding: 0;
   }
 
+img {
+    border: whitesmoke solid 2px; !important;
+}
+ img:hover {
+     background-color: black; !important;
+     border: limegreen solid 3px; !important;
+ }
