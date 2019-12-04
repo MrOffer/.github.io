@@ -32,3 +32,6 @@ img {
      background-color: black; !important;
      border: limegreen solid 3px; !important;
  }
+ h2:hover {
+     color: #111111; !important;
+ }
